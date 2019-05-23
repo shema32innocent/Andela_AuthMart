@@ -1,0 +1,148 @@
+Page to be deleted
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>seller</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  padding:0px;
+  margin: 0px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Table */
+table{
+  width: 400px;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+
+nav {
+  float: left;
+  width:15%;
+  height: 400px; 
+  background: #ccc;
+  padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+        
+a:hover {
+    color: green;
+}
+
+/* Style the list inside the menu */
+
+
+article {
+  float: left;
+  padding: 20px;
+  width: 85%;
+  height: 400px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 760px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+
+
+  input[type="text"]{
+    width: 100px;
+  }
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>welecome</h1>
+
+<a href="admin.html">admin</a>
+     <a href="seller.html">seller</a>
+     <a href="client.html">client</a>
+</header>
+<section>
+  <article>
+<form>
+<table>
+ <tr>
+  <td>CAR</td>
+  <td>TYPER</td>
+   <td>CLIENT PURCHASE PRICE</td>
+  <td>UPDATE PRICE</td>
+  <td>I AGGRE WITH THE PRICE</td>
+ <tr>
+  <th><img src="./assets/toyota.jpg" width="40%"></th>
+  <th>TOYOTA</th>
+
+  <th>120$</th>
+  <th> 
+  	<input type="text" name="amount">
+  </th>
+  <th>  	<input type="checkbox" name="checkbox"></th>
+  <th>    <input type="submit" name="update" value="update"></th>
+ </tr>
+ <tr>
+  <th><img src="./assets/benz.jpg" width="40%"></th>
+  <th>BENZ</th>
+  <th>400$</th>
+  <th>
+    <input type="text" name="amount">
+  </th>
+  <th>    <input type="checkbox" name="checkbox"></th>
+  <th>    <input type="submit" name="update" value="update"></th>
+ </tr>
+<tr>
+  <th><img src="./assets/mahidra.jpg" width="40%" ></th>
+  <th>MAHINDRA</th>
+  <th>250$</th>
+  <th>
+    <input type="text" name="amount">
+  </th>
+  <th>    <input type="checkbox" name="checkbox"></th>
+  <th>    <input type="submit" name="update" value="update"></th>
+ </tr>
+</table>
+  </article>
+</section>
+<footer>
+  <p>YOU ARE LOGGED AS SELLER</p>
+<input type="password" name=""><input type="submit" value="change password">
+</footer>
+</body>
+</html>
