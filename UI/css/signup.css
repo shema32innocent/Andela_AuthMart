@@ -1,0 +1,33 @@
+body{
+
+font-family: 15px /1.5 Arial, Helvetica, sans-serif;
+
+ margin: 0;
+ padding: 0;
+ background-color:#ffffff;
+ 
+ text-align: center;
+ padding-top: 10px;	
+}
+
+
+input[class=txtfield] {
+ width: 40%;
+  height:40px;
+  border: 2px solid;
+  border-radius: 7px;
+}
+input[class=btn]{
+
+  height:30px;
+  width:100px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px;
+  border-radius:20px;
+  line-height:1em;
+
+
+}
+
+
